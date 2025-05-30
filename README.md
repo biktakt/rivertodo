@@ -1,16 +1,21 @@
 # rivertodo
 
-A new Flutter project.
+Just another test assignment
 
-## Getting Started
+Для API использован https://my-json-server.typicode.com/
 
-This project is a starting point for a Flutter application.
+Отображает список задач, полученных из сети (GET /todos).
+Фильтрация по категориям.
+Экран создания задачи:
+Поля: название, описание, категория (выпадающий список).
+При нажатии "Сохранить" отправляется запрос на POST /todos.
+Возврат на главный экран, обновление списка.
 
-A few resources to get you started if this is your first Flutter project:
+Стэк: flutter_riverpod, dio, auto_route, injectable
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+```zsh
+flutter pub get
+dart run build_runner build --delete-conflicting-outputs
+dart run lean_builder build
+```
