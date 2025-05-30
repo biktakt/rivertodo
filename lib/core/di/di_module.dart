@@ -6,7 +6,7 @@ abstract class RegisterModule {
   @lazySingleton
   Dio dio() => Dio(
     BaseOptions(
-      baseUrl: 'https://my-json-server.typicode.com/biktakt/todomockdb',
+      baseUrl: 'https://my-json-server.typicode.com/biktakt/rivertodo',
       headers: {'Content-Type': 'application/json'},
     ),
   );

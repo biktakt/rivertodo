@@ -1,0 +1,183 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Купить продукты",
+      "description": "Молоко, хлеб, яйца",
+      "completed": false,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Сделать домашнее задание",
+      "description": "Математика и физика",
+      "completed": false,
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "title": "Позвонить маме",
+      "description": "Обсудить выходные",
+      "completed": true,
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "title": "Тренировка",
+      "description": "Бег 30 минут",
+      "completed": false,
+      "categoryId": 4
+    },
+    {
+      "id": 5,
+      "title": "Купить подарок",
+      "description": "Подарок на день рождения друга",
+      "completed": false,
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "title": "Прочитать книгу",
+      "description": "Закончить читать '1984' Джорджа Оруэлла",
+      "completed": true,
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "title": "Записаться в спортзал",
+      "description": "Выбрать подходящий зал и оформить абонемент",
+      "completed": false,
+      "categoryId": 4
+    },
+    {
+      "id": 8,
+      "title": "Проверить почту",
+      "description": "Ответить на важные письма",
+      "completed": true,
+      "categoryId": 3
+    },
+    {
+      "id": 9,
+      "title": "Купить билеты в кино",
+      "description": "На новый фильм, который выходит на этой неделе",
+      "completed": false,
+      "categoryId": 1
+    },
+    {
+      "id": 10,
+      "title": "Записаться на курсы",
+      "description": "Онлайн-курсы по программированию",
+      "completed": false,
+      "categoryId": 2
+    },
+    {
+      "id": 11,
+      "title": "Уборка в квартире",
+      "description": "Пылесос, мытье полов, уборка пыли",
+      "completed": false,
+      "categoryId": 3
+    },
+    {
+      "id": 12,
+      "title": "Планирование тренировок",
+      "description": "Составить план тренировок на месяц",
+      "completed": false,
+      "categoryId": 4
+    },
+    {
+      "id": 13,
+      "title": "Покупка одежды",
+      "description": "Новая куртка и обувь",
+      "completed": false,
+      "categoryId": 1
+    },
+    {
+      "id": 14,
+      "title": "Изучение нового языка",
+      "description": "Начать изучать испанский язык",
+      "completed": false,
+      "categoryId": 2
+    },
+    {
+      "id": 15,
+      "title": "Встреча с друзьями",
+      "description": "Организовать встречу в выходные",
+      "completed": true,
+      "categoryId": 3
+    },
+    {
+      "id": 16,
+      "title": "Покупка спортивного инвентаря",
+      "description": "Новые кроссовки и мяч",
+      "completed": false,
+      "categoryId": 4
+    },
+    {
+      "id": 17,
+      "title": "Проверка финансов",
+      "description": "Сверить расходы и доходы за месяц",
+      "completed": true,
+      "categoryId": 1
+    },
+    {
+      "id": 18,
+      "title": "Посещение выставки",
+      "description": "Выставка современного искусства в галерее",
+      "completed": false,
+      "categoryId": 3
+    },
+    {
+      "id": 19,
+      "title": "Покупка абонемента на фитнес",
+      "description": "Оформить абонемент на год",
+      "completed": false,
+      "categoryId": 4
+    },
+    {
+      "id": 20,
+      "title": "Организация поездки",
+      "description": "Планирование отпуска на море",
+      "completed": false,
+      "categoryId": 1
+    },
+    {
+      "id": 21,
+      "title": "Участие в вебинаре",
+      "description": "Онлайн-вебинар по личностному росту",
+      "completed": false,
+      "categoryId": 2
+    },
+    {
+      "id": 22,
+      "title": "Покупка подарков для семьи",
+      "description": "Подарки на праздники",
+      "completed": false,
+      "categoryId": 1
+    },
+    {
+      "id": 23,
+      "title": "Чтение статей по саморазвитию",
+      "description": "Найти и прочитать интересные статьи",
+      "completed": true,
+      "categoryId": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Покупки"
+    },
+    {
+      "id": 2,
+      "name": "Учеба"
+    },
+    {
+      "id": 3,
+      "name": "Личное"
+    },
+    {
+      "id": 4,
+      "name": "Спорт"
+    }
+  ]
+}
